@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-.board {
+#board {
   width: 100vw;
   height: 100vh;
   display: grid;
@@ -53,8 +53,8 @@ body {
 
 .cell.tic::before,
 .cell.tic::after,
-.board.tic .cell:hover::before,
-.board.tic .cell:hover::after {
+#board.tic .cell:hover::before,
+#board.tic .cell:hover::after {
   content: "";
   width: calc(var(--mark-size) * 0.15);
   height: var(--mark-size);
@@ -68,22 +68,22 @@ body {
   cursor: text;
 }
 
-.board.tic .cell:hover::before,
+#board.tic .cell:hover::before,
 .cell.tic::before {
   transform: rotate(45deg);
 }
 
-.board.tic .cell:hover::after,
+#board.tic .cell:hover::after,
 .cell.tic::after {
   transform: rotate(-45deg);
 }
 
-.board.tic .cell:hover {
+#board.tic .cell:hover {
   opacity: 0.5;
 }
 
 
-.board.tac .cell:hover::before,
+#board.tac .cell:hover::before,
 .cell.tac::before {
   content: "";
   width: var(--mark-size);
@@ -93,7 +93,7 @@ body {
   box-shadow: inset 0 0 0 calc(var(--mark-size) * 0.15) black;
 }
 
-.board.tac .cell:hover {
+#board.tac .cell:hover {
   opacity: 0.5;
 }
 
