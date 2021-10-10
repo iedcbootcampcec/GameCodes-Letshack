@@ -1,7 +1,7 @@
 {
   "name": "pong-javascript",
   "version": "1.0.0",
-  "description": "A pong game builded in Javascript",
+  "description": "A pong game built in JavaScript",
   "main": "index.html",
   "scripts": {
     "start": "http-server -p 5000"
