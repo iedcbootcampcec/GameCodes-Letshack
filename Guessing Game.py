@@ -9,9 +9,9 @@ print("\nThe admin has to enter a number between 0 and 5")
 
 def nochange(a):  
     if (a%2==0):
-        a=a+z
+        a+=z
     else:
-        a=a+z
+        a+=z
     return a  
     
 
