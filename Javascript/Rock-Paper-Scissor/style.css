@@ -61,6 +61,25 @@ body {
   margin-top: 30px;
   text-align: center;
 }
-/* .score, .details {
 
-} */
+#result {
+  font-weight: bold;
+  width: 40%;
+  margin: 0.5em auto 0;
+  padding: 0.5em;
+}
+
+#result.win {
+  background: #90ee90;
+  color: #3a963a ;
+}
+
+#result.lose {
+  background: lightcoral;
+  color: #a52a2a;
+}
+
+#result.draw {
+  color: #ad7100;
+  background: #ffc862;
+}
